@@ -44,7 +44,7 @@ Admin _userDataFromSnapshot(DocumentSnapshot? snapshot) {
 Stream<Admin> get adminData {
    final CollectionReference _reference =
    FirebaseFirestore.instance.collection('ADMIN');
-   return _reference.doc("opOpwQOX9xKOLSaOfwnd").snapshots().map(_userDataFromSnapshot);
+   return _reference.doc("op*********aOfwnd").snapshots().map(_userDataFromSnapshot);
 }
 
 
