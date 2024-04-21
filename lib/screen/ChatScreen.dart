@@ -569,7 +569,7 @@ List<AgentData> items(QuerySnapshot snapshot ){
 
 void sendMessageToTopic(String topic, String title, String body) async {
   final String serverKey =
-      'AAAAdI9gbIs:APA91bGyzl5yItTowitWbZoIiJMOKbUisJKreCWsCq7blS1KQ0pFM9acMtUH-lLxQJejJwWbie5qX0onPhPTMO-tSBXnEqzhah7AqV24BUpmJ0zdT3r1MaLgaLA1QXIRtRG8y9v-girh'; // Replace with your FCM server key from the Firebase Console
+      'AAAAdI9gbIs:APA91bGyzl5******************************************************************irh'; // Replace with your FCM server key from the Firebase Console
 
   final Uri fcmUrl = Uri.parse('https://fcm.googleapis.com/fcm/send');
 
