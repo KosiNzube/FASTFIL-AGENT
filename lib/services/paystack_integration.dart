@@ -21,7 +21,7 @@ class PaystackPopup {
 
     js.context.callMethod(
       paystack.paystackPopUp(
-        'pk_test_285b6fee2412a1eb08e41763cb76aa63828a525a',
+        'pk_***********63828a525a',
         email,
         amount,
         ref,
