@@ -30,7 +30,7 @@ void main() async {
   await Firebase.initializeApp(
   //  name:"Fast-fil-agent",
 
-    options:FirebaseOptions(apiKey: "AIzaSyBRWe6ljejI4tJLMTfjjfISQniFbNK-S6M", appId: "1:500621667467:web:83e9b590c05ed1f591788e", messagingSenderId: "500621667467", projectId: "afri-gas",storageBucket: "afri-gas.appspot.com",),);
+    options:FirebaseOptions(apiKey: "AIzaS************SQniFbNK-S6M", appId: "1:50***************f591788e", messagingSenderId: "50062****467", projectId: "*****gas",storageBucket: "a******spot.com",),);
 
   if(kIsWeb){
 
